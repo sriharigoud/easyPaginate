@@ -3,3 +3,5 @@ easyPaginate – A jQuery pagination with bootstrap support.
 
 A simple jQuery pagination with bootstrap support, gives a full support of bootstrap.
 
+Demo @ http://w3easystep.info/demos/easyPaginate/
+
