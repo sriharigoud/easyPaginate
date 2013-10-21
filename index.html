@@ -1,0 +1,52 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="bootstrap.css" rel="stylesheet" />
+        <style>
+            #paginatio .btn{
+                margin: 4px;
+                
+            }
+            #paginatio .dots{
+                margin: 4px;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page">TODO write content</div>
+        
+        <div id="pageer">TODO write content</div>
+        <div id="paginatio"></div>
+        <div id="paginatioe"></div>
+        <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script src="jquery.easyPaginate.js" type="text/javascript"></script> 
+        <script>
+            $("#paginatio").easyPaginate({
+                items:444,
+                edges:3,
+                onClickcallback: function(page){
+                   $("#page").html("Current Page is " + page);
+                },
+                        onInit:function(){
+                            $("#page").html("Current Page is " + 1);
+                        }
+            });
+            $("#paginatioe").easyPaginate({
+                onClickcallback: function(page){
+                    $("#pageer").html("Current Page is " + page);
+                },
+                        onInit:function(){
+                            $("#pageer").html("Current Page is " + 1);
+                        }
+            });
+            </script>
+    </body>
+</html>
