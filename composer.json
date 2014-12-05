@@ -1,5 +1,15 @@
 {
-    "require": {
-        "easyPaginate": "2.1.2"
-    }
+    "name": "sriharigoud/easyPaginate",
+    "type": "library",
+    "description": "easy pagination with bootstrap",
+    "keywords": ["pagination"],
+    "homepage": "http://w3easystep.info/jquery-pagination-plugin-with-bootstrap-support-2.html",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Srihari Goud",
+            "homepage": "http://w3easystep.info/",
+            "role": "Developer"
+        }
+    ]
 }
